@@ -1,5 +1,8 @@
 .loginForm{
     background: #fff;
-    text-align: center;
-    
+    text-align: center;   
+}
+
+.labelAlert{
+    color: red;
 }

@@ -10,7 +10,7 @@ const Input = ({attribute, handleChange, param}) => {
                 placeholder = {attribute.placeholder}
                 type = {attribute.type}
                 onChange = { (e) => handleChange(e.target.name, e.target.value)}
-                className = 'regularSyle'
+                className = { param ? 'inputError' : 'regularStyle'}
             />
         </div>
     )
